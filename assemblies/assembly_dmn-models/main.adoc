@@ -15,9 +15,9 @@ As a business analyst or business rules developer, you can use Decision Model an
 For more information about DMN, see the Object Management Group (OMG) https://www.omg.org/spec/DMN[Decision Model and Notation specification].
 
 // Modules - concepts, procedures, refs, etc.
-include::{drools-dir}/DMN/category1/dmn-con.asciidoc[leveloffset=+1]
+include::{drools-dir}/DMN/category1/topic_title1-fragment_title1-con.asciidoc[leveloffset=+1]
 
-include::{drools-dir}/DMN/category1/dmn-conformance-levels-con.asciidoc[leveloffset=+2]
+include::{drools-dir}/DMN/category1/topic_title1-fragment_title2-con.asciidoc[leveloffset=+2]
 
 // include::{drools-dir}/DMN/dmn-drd-components-ref.asciidoc[leveloffset=+2]
 
@@ -25,7 +25,7 @@ include::{drools-dir}/DMN/category1/dmn-conformance-levels-con.asciidoc[leveloff
 
 // include::{drools-dir}/DMN/dmn-names-con.asciidoc[leveloffset=+3]
 
-include::{drools-dir}/DMN/category2/dmn-data-types-ref.asciidoc[leveloffset=+3]
+include::{drools-dir}/DMN/category2/topic_title2-fragment_title2-con.asciidoc[leveloffset=+3]
 
 // include::{drools-dir}/DMN/dmn-boxed-expressions-con.asciidoc[leveloffset=+2]
 
@@ -35,7 +35,7 @@ include::{drools-dir}/DMN/category2/dmn-data-types-ref.asciidoc[leveloffset=+3]
 
 // include::{drools-dir}/DMN/dmn-literal-expressions-con.asciidoc[leveloffset=+3]
 
-include::{drools-dir}/DMN/category2/dmn-context-expressions-con.asciidoc[leveloffset=+3]
+include::{drools-dir}/DMN/category2/topic_title2-fragment_title1-con.asciidoc[leveloffset=+3]
 
 // include::{drools-dir}/DMN/dmn-relation-expressions-con.asciidoc[leveloffset=+3]
 
