@@ -8,6 +8,8 @@ This project requires git subtrees. Make sure you have it configured before runn
 
 # Run 
 
+First go to the `doc-content/drools-docs/src/main/asciidoc` folder and run `sudo sh split.sh`. This `split.sh` in the asciidoc folder is responsible for splitting, naming and categorising the doc-fragments. Now, a `DMN` folder is created upon which the assemblies will run.
+
 In order to run the product-docs, you need to install [ccutil](https://pantheon.cee.redhat.com/#/help/ccutil-install) and follow the instructions in [proposal-d](https://gitlab.cee.redhat.com/red-hat-jboss-bxms-documentation/proposal-d/tree/master).
 
 <!-- In order to run the community docs, you need to have Maven installed. If yes, goto `doc-content/drools-docs`, run `mvn clean install` and view the `index.html` in `target/generated-docs/html_single`.
