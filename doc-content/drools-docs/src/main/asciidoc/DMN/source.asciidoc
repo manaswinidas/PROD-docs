@@ -1,3 +1,43 @@
+[id='dmn-con_{context}']
+= Decision Model and Notation (DMN)
+
+Decision Model and Notation (DMN) is a standard established by the Object Management Group (OMG) for describing and modeling operational decisions. DMN defines an XML schema that enables DMN models to be shared between DMN-compliant platforms and across organizations so that business analysts and business rules developers can collaborate in designing and implementing DMN decision services. The DMN standard is similar to and can be used together with the Business Process Model and Notation (BPMN) standard for designing and modeling business processes.
+
+For more information about the background and applications of DMN, see the OMG https://www.omg.org/spec/DMN[Decision Model and Notation specification].
+
+[id='dmn-conformance-levels-con_{context}']
+= DMN conformance levels
+
+The DMN specification defines three incremental levels of conformance in a software implementation. A product that claims compliance at one level must also be compliant with any preceding levels. For example, a conformance level 3 implementation must also include the supported components in conformance levels 1 and 2. For the formal definitions of each conformance level, see the OMG https://www.omg.org/spec/DMN[Decision Model and Notation specification].
+
+The following list summarizes the three DMN conformance levels:
+
+Conformance level 1::
+A DMN conformance level 1 implementation supports decision requirement diagrams (DRDs), decision logic, and decision tables, but decision models are not executable. Any language can be used to define the expressions, including natural, unstructured languages.
+
+Conformance level 2::
+A DMN conformance level 2 implementation includes the requirements in conformance level 1, and supports Simplified Friendly Enough Expression Language (S-FEEL) expressions and fully executable decision models.
+
+Conformance level 3::
+A DMN conformance level 3 implementation includes the requirements in conformance levels 1 and 2, and supports Friendly Enough Expression Language (FEEL) expressions, the full set of boxed expressions, and fully executable decision models.
+
+{PRODUCT} provides design and runtime support for DMN 1.2 models at conformance level 3. You can design your DMN models directly in {CENTRAL} or import existing DMN models into your {PRODUCT} projects for deployment and execution.
+
+[id='dmn-context-expressions-con_{context}']
+= Boxed context expressions
+
+A boxed context expression in DMN is a set of variable names and values with a result value. Each name-value pair is a context entry. You use context expressions to represent data definitions in decision logic and set a value for a desired decision element within the DMN decision model. A value in a boxed context expression can be a data type value or FEEL expression, or can contain a nested sub-expression of any type, such as a decision table, a literal expression, or another context expression.
+
+For example, the following boxed context expression defines the factors for sorting delayed passengers in a flight-rebooking decision model, based on defined data types (`tPassengerTable`, `tFlightNumberList`):
+
+.Boxed context expression for flight passenger waiting list
+image::dmn/dmn-context-expression-example.png[]
+
+The following boxed context expression defines the factors that determine whether a loan applicant can meet minimum mortgage payments based on principal, interest, taxes, and insurance (PITI), represented as a front-end ratio calculation with a sub-context expression:
+
+.Boxed context expression for front-end client PITI ratio
+image::dmn/dmn-context-expression-example2.png[]
+
 [id='dmn-data-types-ref_{context}']
 = Data types in FEEL
 
