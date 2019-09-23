@@ -1,4 +1,5 @@
 #!/bin/sh
+sudo rm -rf DMN
 sudo chmod -R 777 ../asciidoc
 mkdir DMN
 csplit --quiet --prefix=DMN/ source/source.asciidoc "/\[id/" "{*}" 
