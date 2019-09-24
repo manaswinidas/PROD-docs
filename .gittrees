@@ -1,0 +1,4 @@
+[subtree "doc-content/drools-docs/myproject"]
+	url = https://github.com/manaswinidas/Prod-docs-test.wiki.git
+	path = doc-content/drools-docs/myproject
+	branch = milestone1
