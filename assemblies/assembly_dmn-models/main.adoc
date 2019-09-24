@@ -15,63 +15,13 @@ As a business analyst or business rules developer, you can use Decision Model an
 For more information about DMN, see the Object Management Group (OMG) https://www.omg.org/spec/DMN[Decision Model and Notation specification].
 
 // Modules - concepts, procedures, refs, etc.
-include::{drools-dir}/DMN/category1/topic_title1-fragment_title1-con.asciidoc[leveloffset=+1]
+include::drools-docs/DMN/category1/topic_title1-fragment_title1-con.asciidoc[leveloffset=+1]
 
-include::{drools-dir}/DMN/category1/topic_title1-fragment_title2-con.asciidoc[leveloffset=+2]
+include::drools-docs/DMN/category1/topic_title1-fragment_title2-con.asciidoc[leveloffset=+2]
 
-// include::{drools-dir}/DMN/dmn-drd-components-ref.asciidoc[leveloffset=+2]
+include::drools-docs/DMN/category2/topic_title2-fragment_title2-con.asciidoc[leveloffset=+3]
 
-// include::{drools-dir}/DMN/dmn-feel-con.asciidoc[leveloffset=+2]
-
-// include::{drools-dir}/DMN/dmn-names-con.asciidoc[leveloffset=+3]
-
-include::{drools-dir}/DMN/category2/topic_title2-fragment_title2-con.asciidoc[leveloffset=+3]
-
-// include::{drools-dir}/DMN/dmn-boxed-expressions-con.asciidoc[leveloffset=+2]
-
-// include::{drools-dir}/DMN/dmn-decision-tables-con.asciidoc[leveloffset=+3]
-
-// include::{drools-dir}/DMN/dmn-decision-tables-hit-policies-con.asciidoc[leveloffset=+4]
-
-// include::{drools-dir}/DMN/dmn-literal-expressions-con.asciidoc[leveloffset=+3]
-
-include::{drools-dir}/DMN/category2/topic_title2-fragment_title1-con.asciidoc[leveloffset=+3]
-
-// include::{drools-dir}/DMN/dmn-relation-expressions-con.asciidoc[leveloffset=+3]
-
-// include::{drools-dir}/DMN/dmn-function-expressions-con.asciidoc[leveloffset=+3]
-
-// include::{drools-dir}/DMN/dmn-invocation-expressions-con.asciidoc[leveloffset=+3]
-
-// include::{drools-dir}/DMN/dmn-model-example-ref.asciidoc[leveloffset=+2]
-
-// include::{drools-dir}/DMN/dmn-support-con.asciidoc[leveloffset=+1]
-
-ifdef::DROOLS[]
-// include::{drools-dir}/DMN/dmn-feel-enhancements-ref.asciidoc[leveloffset=+2]
-
-// include::{drools-dir}/DMN/dmn-model-enhancements-ref.asciidoc[leveloffset=+2]
-// endif::DROOLS[]
-
-// include::{drools-dir}/DMN/dmn-properties-ref.asciidoc[leveloffset=+2]
-
-// include::{drools-dir}/DMN/dmn-model-creating-proc.asciidoc[leveloffset=+1]
-
-// include::{drools-dir}/DMN/dmn-logic-defining-proc.asciidoc[leveloffset=+2]
-
-// include::{drools-dir}/DMN/dmn-data-types-defining-proc.asciidoc[leveloffset=+2]
-
-// include::{drools-dir}/DMN/dmn-included-models-proc.asciidoc[leveloffset=+2]
-
-// include::{drools-dir}/DMN/dmn-designer-nav-ref.asciidoc[leveloffset=+2]
-
-// include::{drools-dir}/DMN/dmn-execution-con.asciidoc[leveloffset=+1]
-
-// include::{drools-dir}/DMN/dmn-execution-embedded-proc.asciidoc[leveloffset=+2]
-
-// include::{drools-dir}/DMN/dmn-execution-remote-java-proc.asciidoc[leveloffset=+2]
-
-// include::{drools-dir}/DMN/dmn-execution-rest-proc.asciidoc[leveloffset=+2]
+include::drools-docs/DMN/category2/topic_title2-fragment_title1-con.asciidoc[leveloffset=+3]
 
 == Additional resources
 * https://www.omg.org/spec/DMN[Decision Model and Notation specification]
