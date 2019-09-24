@@ -1,10 +1,10 @@
 #!/bin/sh
-sudo rm -rf DMN
-sudo chmod -R 777 ../asciidoc
-mkdir DMN
-csplit --quiet --prefix=DMN/ source/source.asciidoc "/\[id/" "{*}" 
-find DMN/ -size 0 -delete
-cd DMN
+sudo rm -rf myproject
+sudo chmod -R 777 ../drools-docs
+mkdir myproject
+csplit --quiet --prefix=myproject/ source/file1.asciidoc "/\[id/" "{*}" 
+find myproject/ -size 0 -delete
+cd myproject
 i=1
 j=1
 for file in 01 02
@@ -27,4 +27,4 @@ do
     mv "$file" category$i/topic_title$i-fragment_title$j-con.asciidoc
     j=$((j+1))
 done
-sudo chmod -R 777 ../DMN
+sudo chmod -R 777 ../myproject

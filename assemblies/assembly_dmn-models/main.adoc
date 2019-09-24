@@ -1,27 +1,20 @@
 [id='assembly_dmn-models']
 
-include::_artifacts/document-attributes.adoc[]
+// include::_artifacts/document-attributes.adoc[]
 
-= Designing a decision service using DMN models
-// Context attribute is assembly specific and enables module reuse between assemblies.
-:doctype: book
+= Sample Documentation
+
 :imagesdir: _images
 :context: dmn-models
-include::_artifacts/author-group.adoc[]
-
-// Purpose statement for the assembly
-As a business analyst or business rules developer, you can use Decision Model and Notation (DMN) to model a decision service graphically in a decision requirements diagram (DRD). This diagram consists of one or more decision requirements graphs (DRGs) that trace business decisions from start to finish, with each decision node using logic defined in DMN boxed expressions such as decision tables. {PRODUCT} provides design and runtime support for DMN 1.2 models at conformance level 3. You can design your DMN models directly in {CENTRAL} or import existing DMN models into your {PRODUCT} projects for deployment and execution.
-
-For more information about DMN, see the Object Management Group (OMG) https://www.omg.org/spec/DMN[Decision Model and Notation specification].
 
 // Modules - concepts, procedures, refs, etc.
-include::drools-docs/DMN/category1/topic_title1-fragment_title1-con.asciidoc[leveloffset=+1]
+include::drools-docs/myproject/category1/topic_title1-fragment_title1-con.asciidoc[leveloffset=+1]
 
-include::drools-docs/DMN/category1/topic_title1-fragment_title2-con.asciidoc[leveloffset=+2]
+include::drools-docs/myproject/category1/topic_title1-fragment_title2-con.asciidoc[leveloffset=+2]
 
-include::drools-docs/DMN/category2/topic_title2-fragment_title2-con.asciidoc[leveloffset=+3]
+include::drools-docs/myproject/category2/topic_title2-fragment_title2-con.asciidoc[leveloffset=+3]
 
-include::drools-docs/DMN/category2/topic_title2-fragment_title1-con.asciidoc[leveloffset=+3]
+include::drools-docs/myproject/category2/topic_title2-fragment_title1-con.asciidoc[leveloffset=+3]
 
 == Additional resources
 * https://www.omg.org/spec/DMN[Decision Model and Notation specification]
